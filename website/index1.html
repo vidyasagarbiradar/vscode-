@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+        nav{
+            background-color: burlywood;
+            color: blue;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .Hero{
+            background-color: whitesmoke;
+            text-align: center;
+            padding: 80px;
+
+        }
+        .btn{
+            display: inline-block;
+            background: #23250e;
+            color: white;
+            padding: 12px 25px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+
+        }
+        .section{
+            padding: 60px 20px;
+            text-align: center;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>MY COLLEGE</h2>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Courses">Courses</a></li>
+            <li><a href="#Contact us">Contact us</a></li>
+             <li><a href="#faculty details">faculty details</a></li>
+        </ul>
+    </nav>
+    <section class="Hero">
+        <h1>
+            Welcome to my college
+        </h1>
+        <p>Quality education for brighter future</p>
+        <a href="#courses" class="btn">Explor courses</a>
+    </section>
+    <section id="About" class="section">
+        <h2>About us</h2>
+        <p>we provide a excelent education and support holistic student development</p>
+    </section>
+    <section id="Course" class="section courses">
+        <h2>Our courses</h2>
+      <div class="course-container">
+        <div class="card">
+            <h3>BBA</h3>
+            <p>Bachelor of Bussiness Administration</p>
+        </div>
+        <div class="card">
+            <h3>BE</h3>
+            <p>Bachelor of Engineering</p>
+        </div>
+        <div class="card">
+            <h3>BCA</h3>
+            <p>Bachelor of computer application</p>
+        </div>
+      </div>
+
+    </section>
+</body>
+</html>
